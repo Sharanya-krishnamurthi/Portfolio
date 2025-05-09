@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharanya | AI Engineer Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sharanya Krishnamurthi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link nav-btn" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-btn" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link nav-btn" href="#blogs">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link nav-btn" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section id="hero">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <!-- Indicators (dots) -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner text-center">
+      <!-- Slide 1: Intro -->
+      <div class="carousel-item active d-flex align-items-center justify-content-center min-vh-50">
+        <div class="container">
+          <h1 class="display-4">Hi, I'm Sharanya</h1>
+          <p class="lead">AI Engineer specializing in NLP, Generative AI, and IDP</p>
+          <a href="https://github.com/Sharanya-krishnamurthi" class="btn btn-primary mt-3">View My Work</a>
+        </div>
+      </div>
+
+      <!-- Slide 2: Project 1 -->
+      <div class="carousel-item d-flex align-items-center justify-content-center min-vh-50">
+        <div class="container">
+          <h2 class="display-5">📄 Arxiv Digest</h2>
+          <p class="lead">ArXiv Digest — Research Paper Summarizer</p>
+          <a href="https://github.com/Sharanya-krishnamurthi/ArxivDigest" target="_blank" class="btn btn-outline-primary mt-3">View Project</a>
+        </div>
+      </div>
+
+      <!-- Slide 3: Project 2 -->
+      <div class="carousel-item d-flex align-items-center justify-content-center min-vh-50">
+        <div class="container">
+          <h2 class="display-5">🧠 PDF Teaching Assistant</h2>
+          <p class="lead">PDF TA: AI-Powered Teaching Assistant for PDFs</p>
+          <a href="#projects" target="_blank" class="btn btn-outline-primary mt-3">Explore More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+           <h2>About Me</h2>
+        <p>
+          Hello! I'm <strong>Sharanya Krishnamurthi</strong>, an AI Engineer with a deep passion for building impactful AI solutions that are both intelligent and responsible. With a background in NLP, LLM fine-tuning, and Generative AI, I specialize in solving real-world problems.
+        </p>
+        <p>
+          From automating document extraction using LayoutLM and OCR pipelines to researching the cognitive effects of Generative AI, I blend research curiosity with strong engineering execution. I love creating clean, scalable code and crafting user-first ML solutions that work in production.
+        </p>
+        <p>
+          Outside of tech, I meditate daily, started learning violin, and love experimenting in the kitchen with home-cooked meals. My journey is powered by curiosity, consistency, and heart!!!
+        </p>
+          <a href="resume.pdf" class="btn btn-outline-primary" download>Download Resume</a>
+        </div>
+        <div class="col-md-6 text-center">
+  <img src="images\wordcloud.png" alt="Skillset WordCloud" class="img-fluid" style="max-width: 100%; height: auto;">
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/PDFTA.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">PDF Teaching Assistant</h5>
+              <p class="card-text">PDF TA: AI-Powered Teaching Assistant for PDFs</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/PdfTA" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/FlavourFind.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Flavour Find!</h5>
+              <p class="card-text">Suggests Indian vegetarian recipes.</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/FlavourFind" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/DocAsk.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">DocAsk</h5>
+              <p class="card-text">DocAsk – AI PDF Q&A with Google Gemini.</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/DocAsk" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/docbrief.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Doc Brief</h5>
+              <p class="card-text">AI Powered Document Summarizer</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/DocBrief" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/arxiv.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">ArxivDigest</h5>
+              <p class="card-text">ArXiv Digest — Research Paper Summarizer</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/ArxivDigest" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/spam.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Spam Shield</h5>
+              <p class="card-text">SpamShield: Email & SMS Spam Classifier</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/SpamShield" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/textsummarizer.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Text Summarizer App</h5>
+              <p class="card-text">Summarizes the given text</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/TextSummarizerApp" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/vidgist.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">VidGist</h5>
+              <p class="card-text">VidGist — Gives the gist of the given YouTube Link!</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/VidGist" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <!-- <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/DocAsk.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">DocAsk</h5>
+              <p class="card-text">DocAsk – AI PDF Q&A with Google Gemini.</p>
+              <a href="https://github.com/Sharanya-krishnamurthi/DocAsk" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Blogs Section -->
+  <section id="blogs" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Blogs</h2>
+      <p class="text-center">Coming soon...</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <p class="text-center">Feel free to reach out to me via email or connect on LinkedIn.</p>
+      <div class="text-center">
+        <a href="mailto:krishnamurthisharanya@gmail.com" class="btn btn-outline-primary me-2">Email</a>
+        <a href="https://www.linkedin.com/in/sharanya-krishnamurthi" class="btn btn-outline-primary">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Sharanya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
