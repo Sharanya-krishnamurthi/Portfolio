@@ -1,0 +1,82 @@
+body {
+  scroll-behavior: smooth;
+}
+.custom-navbar {
+  background-color: #e3f2fd !important; /* Light blue */
+}
+.nav-btn {
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  margin-left: 10px;
+  color: #007bff;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+}
+
+.nav-btn:hover {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section {
+  height: 50vh;
+  background: url('images/hero-bg.jpg') center center/cover no-repeat;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+#heroCarousel {
+        
+  background-image: url('../images/abstract_background_3-wallpaper-800x480.jpg'); /* or use a full URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  height: 50vh;
+}
+
+.carousel-item {
+  background-image: url('../images/abstract_background_3-wallpaper-800x480.jpg'); /* or use a full URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  min-height: 50vh; /* Reduces individual slide height */
+  padding: 30px 0; /* Reduces padding within slides */
+  /*background-color: rgba(255, 255, 255, 0.7);  optional: white overlay for readability */
+  /* backdrop-filter: blur(5px); optional: blur for aesthetic */
+}
+
+#hero h1, #hero h2 {
+  font-weight: 700;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(34%) sepia(88%) saturate(500%) hue-rotate(180deg); /* Customize this */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 0;
+}
+.card-img-top {
+  height: 300px; /* or adjust to your desired height */
+  /* object-fit: cover; */
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
